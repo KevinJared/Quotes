@@ -9,9 +9,11 @@ h1 {
     height: 30px;
 }
 .title{
-    height: 300px;
+    height: 200px;
 }
-
+.body{
+    height: 100%;
+}
 .footer{
     position:absolute;
     bottom:0;

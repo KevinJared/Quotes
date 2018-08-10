@@ -1,0 +1,9 @@
+<ul class="list-group">
+    <li class="list-group-item" id="list" *ngFor='let quote of quotes'>{{quote.name}} 
+        <ul class="list-group">
+            <li class="list-group-item">
+                <button class="btn btn-success">Upvote</button><button class="btn btn-danger">Downvote</button>
+            </li>
+        </ul>
+    </li>
+</ul>

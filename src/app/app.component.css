@@ -6,8 +6,12 @@ h1 {
 }
 .header{
     background-color: dimgrey;
-    height: 40px;
+    height: 30px;
 }
+.title{
+    height: 300px;
+}
+
 .footer{
     position:absolute;
     bottom:0;

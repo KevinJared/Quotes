@@ -1,19 +1,19 @@
 <div class="form">
-  <form action="" >
+  <form (ngSubmit)='submitQuote()'>
     <div class="form-group">
       <label for="quote">Quote</label>
-      <input type="text" required class="form-control" id="quote" placeholder="Enter quote">
+      <input type="text" class="form-control" id="quote" [(ngModel)]="quoteDetails" name="details" placeholder="Enter quote">
     </div>
     <div class="form-group">
       <label for="author">Author</label>
-      <input type="text" required class="form-control" id="author" placeholder="Name of the author">
+      <input type="text" class="form-control" id="author" [(ngModel)]="quoteAuthor" name="author"  placeholder="Name of the author">
     </div>
     <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" required class="form-control" id="name" placeholder="Enter Your Name">
-      </div>
-    <div>
-      <input type="submit" value="submit">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" [(ngModel)]="quotePublisher" name="publisher" placeholder="Enter Your Name">
     </div>
+   <div>
+    <button type="submit" class="btn btn-success btn-lg">Post Quote</button>
+   </div>
   </form>
 </div>

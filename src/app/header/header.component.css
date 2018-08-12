@@ -1,0 +1,10 @@
+.header{
+    border-bottom-color: burlywood;
+    height: 250px;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+    color: crimson;
+    text-align: center;
+  }

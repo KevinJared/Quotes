@@ -1,9 +1,5 @@
-<ul class="list-group">
-    <li class="list-group-item" id="list" *ngFor='let quote of quotes'>{{quote.name}} 
-        <ul class="list-group">
-            <li class="list-group-item">
-                <button class="btn btn-success">Upvote</button><button class="btn btn-danger">Downvote</button>
-            </li>
-        </ul>
-    </li>
-</ul>
+<app-quote-form (emitQuote)="addQuote($event)"></app-quote-form>
+<div *ngFor="let quote of quotes; let i=index">
+
+    <app-quote-details [quote]="quote"></app-quote-details>
+</div>

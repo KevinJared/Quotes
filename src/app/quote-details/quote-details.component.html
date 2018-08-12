@@ -1,11 +1,13 @@
-<div class="container">
+<div class="details">
+    <button id="delete"(click) = 'quoteDelete(true)' class="btn btn btn-danger">Delete</button>
   <p>
-    Details:{{quote.details}}
+    Quote:{{quote.publisher}}
   </p>
   <p>
     Author:{{quote.author}}
   </p>
   <p>
-    Publisher:{{quote.publisher}}
+    Publisher:{{quote.details}}
   </p>
 </div>
+

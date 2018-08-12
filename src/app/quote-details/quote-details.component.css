@@ -1,0 +1,12 @@
+.btn{
+    float: right;
+}
+.details{
+    border: 1px solid crimson;
+    background-color: lightsteelblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}

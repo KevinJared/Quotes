@@ -2,22 +2,9 @@ h1 {
   font-family: 'Pacifico', cursive;
   font-size: 90px;
   color: crimson;
-  text-align: left;
+  text-align: center;
 }
 .header{
     background-color: dimgrey;
     height: 30px;
-}
-.title{
-    height: 200px;
-    border-bottom: 2px solid aliceblue;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.footer{
-    bottom:0;
-    width:100%;
-    height:60px;   
-    background: aliceblue;
-    text-align: center;
 }

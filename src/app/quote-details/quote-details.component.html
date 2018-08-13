@@ -1,5 +1,5 @@
 <div class="details">
-    <button id="delete"(click) = 'quoteDelete(true)' class="btn btn btn-danger">Delete</button>
+  <button id="delete" (click)='quoteDelete(true)' class="btn btn btn-danger">Delete</button>
   <p>
     Quote:{{quote.details}}
   </p>
@@ -9,6 +9,10 @@
   <p class="publisher">
     Publisher:{{quote.author}}
   </p>
-
+  <p>
+    {{quote.mydate}}
+  </p>
+  <button class="btn1 btn-info" (click)='upvote(true)'>upvote</button> &nbsp;
+  <button class="btn1 btn-warning" (click)='downvote(true)'>Downvote</button>
 </div>
 

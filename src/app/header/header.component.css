@@ -1,12 +1,13 @@
 .header{
     border-bottom-color: burlywood;
     height: 200px;
-    background-color: cadetblue;
     padding-top: 35px;
+    background-image: url("src/assets/background.jpg")
 }
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 90px;
     color: crimson;
     text-align: center;
+    text-shadow: 1 1 4px #FF0000;
   }

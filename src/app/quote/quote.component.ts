@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class QuoteComponent implements OnInit {
   quotes = [];
   addQuote(newQuote) {
-    this.quotes.push(newQuote);
+    this.quotes.unshift(newQuote);
   }
   constructor() { }
 

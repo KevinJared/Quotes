@@ -1,6 +1,8 @@
 .header{
     border-bottom-color: burlywood;
     height: 200px;
+    background-color: cadetblue;
+    padding-top: 35px;
 }
 h1 {
     font-family: 'Pacifico', cursive;
